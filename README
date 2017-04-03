@@ -1,0 +1,12 @@
+This is your new Play application
+=================================
+This example needs the recipes authors books schema and graph to be loaded in cassandra. See
+http://docs.datastax.com/en/latest-dse/datastax_enterprise/graph/QuickStartStudio.html for the example.
+
+However this code can also be used as a scala shell to access any graph.
+
+Clone this project from github
+Look in the conf/routes file for the routes
+To run type activator ~run
+Then hit http://localhost:9000/....
+
